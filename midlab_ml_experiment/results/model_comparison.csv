@@ -1,0 +1,4 @@
+model,accuracy,precision,recall,f1,training_time_s,inference_time_s,n_features
+CNN,0.8760,0.9840,0.8314,0.9013,11.01,0.0596,20
+SVM,0.8821,0.9751,0.8484,0.9073,66.55,163.1424,20
+CNN+SVM,0.8816,0.9799,0.8434,0.9065,61.36,151.7284,20

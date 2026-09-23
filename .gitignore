@@ -1,0 +1,26 @@
+# Python bytecode
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Environments
+venv/
+env/
+ENV/
+.venv/
+
+# IDE & OS
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+~$*
+.~*
+
+# Temporary logs
+*.log
+
+# Large Datasets & Processed Arrays (see data/dataset_instructions.md)
+midlab_ml_experiment/data/raw/*.csv
+midlab_ml_experiment/data/processed/*.npy
+
