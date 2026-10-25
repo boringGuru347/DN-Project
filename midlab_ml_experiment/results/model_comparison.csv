@@ -1,4 +1,5 @@
-model,accuracy,precision,recall,f1,training_time_s,inference_time_s,n_features
-CNN,0.8760,0.9840,0.8314,0.9013,11.01,0.0596,20
-SVM,0.8821,0.9751,0.8484,0.9073,66.55,163.1424,20
-CNN+SVM,0.8816,0.9799,0.8434,0.9065,61.36,151.7284,20
+model,accuracy,precision,recall,f1,fpr,training_time_s,inference_time_s,n_features
+Proposed Model,0.9134,0.9707,0.8999,0.9340,0.0580,0.38,0.2211,15
+CNN,0.8938,0.9864,0.8557,0.9164,0.0251,6.39,0.0498,15
+SVM,0.9031,0.9769,0.8784,0.9250,0.0443,43.46,167.7024,15
+CNN+SVM,0.8967,0.9842,0.8621,0.9191,0.0296,63.94,142.3893,15
